@@ -50,6 +50,7 @@ class NewsForCategorie {
             description: element['description'],
             urlToImage: element['urlToImage'],
             content: element["content"],
+            url: element["url"]
           );
           news.add(article);
         }

@@ -18,6 +18,8 @@ class _ArticleViewState extends State<ArticleView> {
 
   @override
   Widget build(BuildContext context) {
+    print("here");
+    print(widget.blogUrl);
     return Scaffold(
       appBar:  AppBar(
         title: Row(
